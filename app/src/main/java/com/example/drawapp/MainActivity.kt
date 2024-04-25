@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun DrawCanvas() {
     println("dsfdf")
+    println("dgfd")
 
     val path = remember{
         mutableStateOf(Path())
