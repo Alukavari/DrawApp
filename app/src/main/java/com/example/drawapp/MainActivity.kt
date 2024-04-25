@@ -35,9 +35,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun DrawCanvas() {
+    println("dsfdf")
 
     val path = remember{
         mutableStateOf(Path())
+
     }
     Canvas(
         modifier = Modifier.fillMaxSize()
